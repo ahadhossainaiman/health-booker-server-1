@@ -14,7 +14,7 @@ const port = process.env.PORT || 5000;
 app.use(
   cors({
     origin: ["https://unique-kataifi-484bfc.netlify.app"],
-    methods: ["GET", "POST", "PATCH", "DELETE", "OPTIONS"],
+    methods: ["GET", "POST", "PATCH", "DELETE", "OPTIONS", "PUT"],
     credentials: true,
   })
 );
